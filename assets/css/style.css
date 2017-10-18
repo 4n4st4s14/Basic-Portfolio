@@ -1,0 +1,113 @@
+.content {
+  width: 960px;
+
+}
+
+.containerLeft {
+  float: left;
+  width: 650px;
+  margin: 10px;
+  background-color: #ffffff;
+  border-color: #dddddd;
+}
+
+.containerRight {
+  float: right;
+  width: 270px;
+  margin: 10px;
+  background-color: #ffffff;
+  border-color: #dddddd;
+}
+
+.icon {
+  height: 60px;
+  width: 60px;
+}
+
+.icon1 {
+  height: 55px;
+  width: 55px;
+}
+
+.image {
+  width: 270px;
+  height: 200px;
+  margin: 15px;
+}
+
+.links {
+  text-decoration: none;
+  color: #777777;
+  font-size: 1em;
+}
+
+.wrap {
+  width: 960px;
+  margin: 0 auto;
+}
+
+#header {
+  background-color: #ffffff;
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+
+#title-area {
+  display: block;
+  line-height: 108px;
+  height: 108px;
+  width: 30%;
+  float: left;
+  color: #ffffff;
+  background-color: #4aaaa5;
+}
+
+nav {
+  line-height: 108px;
+  height: 108px;
+  float: right;
+  width: 65%:
+}
+
+li a {
+  display: inline;
+  width: 65%;
+}
+nav li {
+  display: inline;
+}
+
+nav ul {
+  text-align: justify;
+}
+
+nav ul:after {
+  content:'';
+  display: inline-block;
+  width: 100%;
+  height: 0;
+}
+
+nav a {
+  padding: 2em 1.5em;
+}
+
+h1, h2, h3 {
+  font-family: font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h2, h3 {
+  color: #4aaaa5
+}
+p, {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+button {
+  height: 40px;
+  width: 115px;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  font-size: 20px;
+  border: none;
+}
