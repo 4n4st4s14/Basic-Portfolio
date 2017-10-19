@@ -33,16 +33,6 @@
   border-color: #dddddd;
 }
 
-.icon {
-  height: 60px;
-  width: 60px;
-}
-
-.icon1 {
-  height: 55px;
-  width: 55px;
-}
-
 .image {
   width: 270px;
   height: 200px;
@@ -93,6 +83,9 @@
   background:black;
   color:white;
   font-size:12px;
+  border-top: solid;
+  border-color: #4aaaa5;
+  border-width: 5px;
   text-align:center;
   position:fixed;    /*Here's what sticks it*/
   bottom:0;          /*to the bottom of the window*/
@@ -189,4 +182,52 @@ button {
   color: #ffffff;
   font-size: 20px;
   border: none;
+}
+
+.github {
+ float: left;
+ width: 60px;
+ height: 60px;
+ display:block;
+ margin: 5px;
+ background:transparent url('../images/githubIcon.png') center top no-repeat;
+}
+
+.github:hover {
+  width: 60px;
+  height: 60px;
+  display: block;
+   background-image: url('../images/githubHover.png');
+}
+
+.linkedin {
+  float: left;
+  width: 60px;
+  height: 60px;
+  display:block;
+  margin: 5px;
+  background:transparent url('../images/linkedinIcon.png') center top no-repeat;
+}
+
+.linkedin:hover {
+  width: 60px;
+  height: 60px;
+  display: block;
+   background-image: url('../images/linkedinHover.png');
+}
+
+.stack {
+  float: left;
+  width: 60px;
+  height: 60px;
+  display:block;
+  margin: 5px;
+  background:transparent url('../images/overflowIcon.png') center top no-repeat;
+}
+
+.stack:hover {
+  width: 60px;
+  height: 60px;
+  display: block;
+   background-image: url('../images/stackHover.png');
 }
